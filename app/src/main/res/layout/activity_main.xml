@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -22,13 +21,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="@string/roll" />
+            android:text="@string/roll"
+    />
 
     <Button
             android:id="@+id/reset_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="@string/reset" />
+            android:text="@string/reset"
+    />
 
 </LinearLayout>

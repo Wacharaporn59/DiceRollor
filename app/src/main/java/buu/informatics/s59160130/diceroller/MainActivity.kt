@@ -39,7 +39,5 @@ class MainActivity : AppCompatActivity() {
     private fun resetDice() {
         val resultText: TextView = findViewById(R.id.result_text)
         resultText.text = "0".toString()
-
-        Toast.makeText(this, "button clicked", Toast.LENGTH_SHORT).show()
     }
 }
